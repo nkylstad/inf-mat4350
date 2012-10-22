@@ -1,0 +1,7 @@
+% Script for finding U and x=vec(U)
+
+m = 3;
+F = ones(m,m);
+U = simplefastbiharmonic(F)
+
+b = h^
