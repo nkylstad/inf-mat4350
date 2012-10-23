@@ -1,9 +1,10 @@
-% Script for finding U and x=vec(U)
+% Script for finding U and x=vec(U), and comparing them
 
-m = 3;
+m = 6
 F = ones(m,m);
 U = simplefastbiharmonic(F)
 
+h = 1/(m+1);
 b = h^4*F(:);
 T = tridiag(-1,2,-1,m);
 I = diag(ones(1,m));
