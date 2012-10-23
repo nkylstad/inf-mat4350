@@ -12,7 +12,7 @@ I = diag(ones(1,m));
 A = kron(T^2, I) + 2*kron(T,T) + kron(I,T^2);
 x = A\b;
 xv = reshape(x,m,m);
-diff = U - xv
+diff = U - xv;
 
 % Plotting u
 figure(1)
