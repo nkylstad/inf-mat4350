@@ -1,0 +1,98 @@
+testPoisson
+{Error: <a href="matlab: opentoline('/uio/arkimedes/s11/ninakky/inf-mat4350/oblig5/testPoisson.m',5,9)">File: testPoisson.m Line: 5 Column: 9</a>
+The expression to the left of the equals sign
+is not a valid target for an assignment.
+} 
+testPoisson
+
+ans =
+
+    10
+
+
+K =
+
+   419
+
+
+ans =
+
+    20
+
+
+K =
+
+        1613
+
+
+ans =
+
+    40
+
+
+K =
+
+        6258
+
+
+ans =
+
+    50
+
+
+K =
+
+        9708
+
+testAverage
+
+ans =
+
+    50
+
+
+K =
+
+    37
+
+
+ans =
+
+   100
+
+
+K =
+
+    35
+
+
+ans =
+
+   200
+
+
+K =
+
+    32
+
+
+ans =
+
+        1000
+
+
+K =
+
+    26
+
+
+ans =
+
+        2000
+
+
+K =
+
+    24
+
+diary off
